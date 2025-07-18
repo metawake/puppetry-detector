@@ -24,9 +24,8 @@ classifiers = [
     "Topic :: Security",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-dependencies = [
-    "rebuff>=0.1.0"
-]
+
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/metawake/puppetry-detector"
@@ -41,6 +40,7 @@ dev = [
     "isort>=5.0.0",
     "mypy>=1.0.0",
     "ruff>=0.1.0",
+    "rebuff>=0.1.0"
 ]
 
 [tool.hatch.build.targets.wheel]
